@@ -1,0 +1,3 @@
+.books > a, .books > a:visited {
+  color: var(--hacker-green);
+}

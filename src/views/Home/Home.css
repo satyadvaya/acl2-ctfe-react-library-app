@@ -1,0 +1,7 @@
+.home a, .home a:visited {
+  color: var(--hacker-green);
+}
+
+p {
+  font-size: 1.2rem;
+}
