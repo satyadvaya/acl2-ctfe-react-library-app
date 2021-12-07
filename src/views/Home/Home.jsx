@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 function Home() {
   return (
     <>
-      <h2>You've Managed to Navigate Your Way Home</h2>
+      <h2>A Listing of Books Awaits You ...</h2>
       <p>
         <Link to="/books">Ahead to List</Link>
       </p>
