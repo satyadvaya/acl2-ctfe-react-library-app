@@ -11,9 +11,9 @@ function App() {
       <Router>
         <h1>Library Catalog</h1>
         <Switch>
-          <Route path="/books/:bookId" component={BookDetail} />
-          <Route path="/books" component={BookList} />
-          <Route path="/" component={Home} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/books" component={BookList} />
+          <Route exact path="/books/:id" component={BookDetail} />
         </Switch>
       </Router>
     </main>
